@@ -30,11 +30,12 @@ public class Main {
     }
 
     /**
-     * Main method.
+     * Main method....
      * @param args
      * @throws IOException
      */
     public static void main(String[] args) throws IOException {
+        System.out.println("---------------Main Invocation---------------");
         final HttpServer server = startServer();
         System.out.println(String.format("Jersey app started with WADL available at "
                 + "%sapplication.wadl\nHit enter to stop it...", BASE_URI));
